@@ -13,4 +13,4 @@ RUN cd /usr/src && \
 
 WORKDIR /root
 RUN /bin/rm -r /usr/src/Python-3.6.3.tgz
-CMD ["/usr/bin/python3"]
+CMD ["/usr/local/bin/python3"]
